@@ -1,4 +1,6 @@
 {
-    "chromeWebSecurity": false,
-    "chromeArgs": ["--disable-gpu"]
+    "video": false,
+    "env": {
+      "ELECTRON_FORCE_RUN": "1"
+    }
 }
